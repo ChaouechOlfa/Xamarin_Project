@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FairBooks.enregistrement"
+             BackgroundColor="#b5224f"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <Frame  CornerRadius="18" Margin="20,20,20,20"  BackgroundColor="White" Padding="20,20,20,20">
+            <StackLayout Spacing="20" >
+
+                <Label Text="Page d'inscription" FontSize="25" FontAttributes="Bold" Margin="20,20,20,20"
+                   HorizontalTextAlignment="Center" TextColor="#b5224f"/>
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Username" FontSize="15" FontAttributes="Bold" Margin="0,0,0,10"
+                   HorizontalTextAlignment="Center" TextColor="#222133"/>
+                    <Entry x:Name="RegistrationName" Placeholder="Entrer votre nom"
+                       VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Password" FontSize="15" FontAttributes="Bold" Margin="0,0,0,10"
+                   HorizontalTextAlignment="Center" TextColor="#222133"/>
+                    <Entry x:Name="RegistrationPassword" Placeholder="Entrer votre Mot de passe" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+
+                <Button x:Name="AddIn" Text="S'inscrire" Clicked="AddIn_Clicked" FontSize="18" Margin="0,20,0,0" FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White" CornerRadius="100"/>
+                <Button x:Name="Retour" Text="Retour" Clicked="Retour_Clicked" FontSize="18" Margin="0,20,0,30" FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White" CornerRadius="100"/>
+                <Image Source="images.png" WidthRequest="350"/>
+                <Label x:Name="statusMessage"/>
+
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

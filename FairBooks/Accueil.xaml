@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FairBooks.Accueil"
+             BackgroundColor="#b5224f"
+             NavigationPage.HasNavigationBar="False"
+             >
+    <ContentPage.Content>
+        <!-- Opacity="0.8"-->
+        <Frame  CornerRadius="18" Margin="10,10,10,10"  BackgroundColor="White" Padding="10,0,10,10">
+            
+            <StackLayout Orientation="Vertical" 
+                     VerticalOptions="Center"
+                     
+                     Padding="8">
+                <Image Source="logo.png" WidthRequest="150"/>
+
+            <Label Text="Page d'accueil" HorizontalTextAlignment="Center"  TextColor="White"/>
+            <StackLayout Orientation="Horizontal">
+                    <Label Text="Username" VerticalOptions="Center" 
+                       FontSize="15" FontAttributes="Bold" WidthRequest="110" TextColor="#222133"/>
+                    <Entry x:Name="Username" Placeholder="Entrer votre nom" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+
+                    <BoxView Color="Transparent" HeightRequest="10" />
+            </StackLayout>
+
+                <StackLayout Orientation="Horizontal" >
+                    <Label Text="Password" VerticalOptions="Center" 
+                       FontSize="15" FontAttributes="Bold" WidthRequest="110" TextColor="#222133"/>
+                    <Entry x:Name="Password" Placeholder="Entrer Mot de passe" VerticalOptions="Center" HorizontalOptions="FillAndExpand" IsPassword="true"/>
+                    <BoxView Color="Transparent" HeightRequest="10" />
+            </StackLayout>
+
+
+                <Button x:Name="LogIn" Text="Log In" Clicked="LogIn_Clicked" FontSize="18" Margin="0,20,0,0" FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White" CornerRadius="100"/>
+                <Button x:Name="Inscrire" Text="S'inscrire" Clicked="Inscrire_Clicked" FontSize="18" Margin="0,20,0,0" FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White" CornerRadius="100"/>
+            <Label HorizontalOptions="Center" >
+                <Label.FormattedText >
+                    <FormattedString>
+                        
+                        <Span Text="Modifier  " TextColor="Red" FontAttributes="Bold"/>
+                        <Span Text="Mot de passe" />
+                    </FormattedString>
+                </Label.FormattedText>
+                <Label.GestureRecognizers >
+                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped"/>
+                </Label.GestureRecognizers>
+            </Label>
+            <Label x:Name="statusMessage"/>
+
+        </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FairBooks.Menu"
+             BackgroundColor="#b5224f"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+        <!-- Opacity="0.8"-->
+        <Frame  CornerRadius="18" Margin="10,10,10,10"  BackgroundColor="White" Padding="10,0,10,10">
+            <StackLayout VerticalOptions="Center"
+                     Padding="10">
+            <Label Text="Menu" HorizontalTextAlignment="Center" Padding="20" FontSize="Large" FontAttributes="Bold" TextColor="Black"/>
+            <Button x:Name="btnLibraryMasterDetail" Text="Library" Clicked="btnLibraryMasterDetail_Clicked" FontSize="18" Margin="0,20,0,0 " FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White" CornerRadius="100"/>
+            <Button x:Name="btnISETTabbedPage" Text="ISET" Clicked="btnISETTabbedPage_Clicked" FontSize="18" Margin="0,20,0,0" FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White" CornerRadius="100"/>
+            <Button x:Name="btnBookFairCarouselPage" Text="Book Fair" Clicked="btnBookFairCarouselPage_Clicked" FontSize="18" Margin="0,20,0,0" FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White" CornerRadius="100" />
+            <Button x:Name="btnQuitter" Text="Quitter" Clicked="btnQuitter_Clicked" FontSize="18" Margin="0,20,0,0" FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White" CornerRadius="100"/>
+        </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>

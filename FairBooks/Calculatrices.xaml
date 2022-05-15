@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FairBooks.Calculatrices"
+             Padding="20">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+
+            <Label Text="Calculatrice De Poche 8 Chiffres MILAN Avec Etui / Noir/"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" FontAttributes="Bold"/>
+            <Label Text="[86450908]"/>
+            <Label Text="Prix:120DT"/>
+                <Label Text="Calculatrice De Poche 8 Chiffres Avec Étui - Touches Softtouch - 3 Touches Mémoire Et Racine Carrée - Double Alimentation : Solaire Et Pile 1.5 V - Arrêt Automatique - Dimensions : 9.7 X 6.2 X 0.8 Cm - Couleur Noir"/>
+            <Image Source="cal1.jpg" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Label Text="[86450908]"/>
+            <Label Text="Prix:120DT"/>
+                <Label Text="Calculatrice De Poche 8 Chiffres Avec Étui - Touches Softtouch - 3 Touches Mémoire Et Racine Carrée - Double Alimentation : Solaire Et Pile 1.5 V - Arrêt Automatique - Dimensions : 9.7 X 6.2 X 0.8 Cm - Couleur Noir"/>
+            <Image Source="cal2.jpg" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            <Label Text="[86450908]"/>
+            <Label Text="Prix:120DT"/>
+                <Label Text="Calculatrice De Poche 8 Chiffres Avec Étui - Touches Softtouch - 3 Touches Mémoire Et Racine Carrée - Double Alimentation : Solaire Et Pile 1.5 V - Arrêt Automatique - Dimensions : 9.7 X 6.2 X 0.8 Cm - Couleur Noir"/>
+            <Image Source="cal3.jpg" WidthRequest="200" HeightRequest="200" HorizontalOptions="Center" VerticalOptions="CenterAndExpand" />
+            
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

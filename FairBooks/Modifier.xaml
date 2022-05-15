@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FairBooks.Modifier"
+             BackgroundColor="#b5224f"
+             NavigationPage.HasNavigationBar="False">
+    <ContentPage.Content>
+
+        <!-- Opacity="0.8"-->
+        <Frame  CornerRadius="18" Margin="20,20,20,20"  BackgroundColor="White" Padding="20,0,20,20">
+            <StackLayout Spacing="20" >
+
+                <Image Source="logo.png" WidthRequest="150"/>
+                <Label Text="Modifier Mot de passe" FontSize="25" FontAttributes="Bold" Margin="0,0,0,10"
+                   HorizontalTextAlignment="Center" TextColor="#b5224f"/>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nom User" VerticalOptions="Center" 
+                       FontSize="18" FontAttributes="Bold" WidthRequest="110" TextColor="#222133"/>
+                    <Entry x:Name="modNom"   Placeholder="Entrez votre nom" VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Ancien MP" VerticalOptions="Center"  
+                       FontSize="18" FontAttributes="Bold"  WidthRequest="110" TextColor="#222133"/>
+                    <Entry x:Name="anpass"  Placeholder="Entrez votre ancien MP" VerticalOptions="Center" HorizontalOptions="FillAndExpand" />
+                </StackLayout>
+
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Nouveau MP" VerticalOptions="Center"  
+                       FontSize="18" FontAttributes="Bold"  WidthRequest="110" TextColor="#222133"/>
+                    <Entry  x:Name="nvpass"  Placeholder="Entrez votre nouveau MP"  VerticalOptions="Center" HorizontalOptions="FillAndExpand"/>
+                </StackLayout>
+
+                <Button Text="Modifier" FontSize="18" Margin="0,20,0,0" x:Name="btnModifier" Clicked="btnModifier_Clicked"
+                    FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White" CornerRadius="100"/>
+                <Button Text="Retour Login" x:Name="RetourLogin" Clicked="RetourLogin_Clicked"
+                    FontSize="18" FontAttributes="Bold" BackgroundColor="#b5224f" TextColor="White"  CornerRadius="100"/>
+
+                <Label x:Name="statusMessage" FontSize="16"/>
+
+            </StackLayout>
+        </Frame>
+
+    </ContentPage.Content>
+</ContentPage>

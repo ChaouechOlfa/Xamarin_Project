@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairBooks.Android", "FairBooks.Android\FairBooks.Android.csproj", "{63E28EF1-E380-4661-AF8F-DA362D2B0972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FairBooks", "FairBooks\FairBooks.csproj", "{21061A66-E630-476C-973B-15893F4D623E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63E28EF1-E380-4661-AF8F-DA362D2B0972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63E28EF1-E380-4661-AF8F-DA362D2B0972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63E28EF1-E380-4661-AF8F-DA362D2B0972}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{63E28EF1-E380-4661-AF8F-DA362D2B0972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63E28EF1-E380-4661-AF8F-DA362D2B0972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{63E28EF1-E380-4661-AF8F-DA362D2B0972}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{21061A66-E630-476C-973B-15893F4D623E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21061A66-E630-476C-973B-15893F4D623E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21061A66-E630-476C-973B-15893F4D623E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{21061A66-E630-476C-973B-15893F4D623E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21061A66-E630-476C-973B-15893F4D623E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21061A66-E630-476C-973B-15893F4D623E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23A99975-C7D9-481B-9B48-8A4587AA77A5}
+	EndGlobalSection
+EndGlobal
